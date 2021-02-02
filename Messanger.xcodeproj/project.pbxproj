@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		55D1F32525C9329500E9A6D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F32425C9329500E9A6D7 /* AppDelegate.swift */; };
 		55D1F32725C9329600E9A6D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F32625C9329600E9A6D7 /* SceneDelegate.swift */; };
-		55D1F32925C9329600E9A6D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F32825C9329600E9A6D7 /* ViewController.swift */; };
+		55D1F32925C9329600E9A6D7 /* ConversationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F32825C9329600E9A6D7 /* ConversationsVC.swift */; };
 		55D1F32C25C9329600E9A6D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D1F32A25C9329600E9A6D7 /* Main.storyboard */; };
 		55D1F32E25C9329700E9A6D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D1F32D25C9329700E9A6D7 /* Assets.xcassets */; };
 		55D1F33125C9329700E9A6D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D1F32F25C9329700E9A6D7 /* LaunchScreen.storyboard */; };
+		55D1F34225C9340800E9A6D7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F34125C9340800E9A6D7 /* LoginVC.swift */; };
+		55D1F34525C9341700E9A6D7 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F34425C9341700E9A6D7 /* RegisterVC.swift */; };
+		55D1F34825C9343700E9A6D7 /* PhotoViewerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F34725C9343700E9A6D7 /* PhotoViewerVC.swift */; };
+		55D1F34C25C9345000E9A6D7 /* VideoPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F34B25C9345000E9A6D7 /* VideoPlayerVC.swift */; };
+		55D1F34F25C9346600E9A6D7 /* NewConversationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F34E25C9346600E9A6D7 /* NewConversationVC.swift */; };
+		55D1F35225C9347700E9A6D7 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F35125C9347700E9A6D7 /* ProfileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55D1F32125C9329500E9A6D7 /* Messanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D1F32425C9329500E9A6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55D1F32625C9329600E9A6D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		55D1F32825C9329600E9A6D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55D1F32825C9329600E9A6D7 /* ConversationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsVC.swift; sourceTree = "<group>"; };
 		55D1F32B25C9329600E9A6D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55D1F32D25C9329700E9A6D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55D1F33025C9329700E9A6D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55D1F33225C9329700E9A6D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D1F34125C9340800E9A6D7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		55D1F34425C9341700E9A6D7 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		55D1F34725C9343700E9A6D7 /* PhotoViewerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerVC.swift; sourceTree = "<group>"; };
+		55D1F34B25C9345000E9A6D7 /* VideoPlayerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerVC.swift; sourceTree = "<group>"; };
+		55D1F34E25C9346600E9A6D7 /* NewConversationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationVC.swift; sourceTree = "<group>"; };
+		55D1F35125C9347700E9A6D7 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,69 @@
 		55D1F32325C9329500E9A6D7 /* Messanger */ = {
 			isa = PBXGroup;
 			children = (
-				55D1F32425C9329500E9A6D7 /* AppDelegate.swift */,
-				55D1F32625C9329600E9A6D7 /* SceneDelegate.swift */,
-				55D1F32825C9329600E9A6D7 /* ViewController.swift */,
-				55D1F32A25C9329600E9A6D7 /* Main.storyboard */,
-				55D1F32D25C9329700E9A6D7 /* Assets.xcassets */,
-				55D1F32F25C9329700E9A6D7 /* LaunchScreen.storyboard */,
+				55D1F33D25C932F700E9A6D7 /* Resources */,
+				55D1F33C25C932D100E9A6D7 /* ViewModels */,
+				55D1F33B25C932BB00E9A6D7 /* Models */,
+				55D1F33A25C932B500E9A6D7 /* Views */,
+				55D1F33925C932A900E9A6D7 /* Controllers */,
 				55D1F33225C9329700E9A6D7 /* Info.plist */,
 			);
 			path = Messanger;
+			sourceTree = "<group>";
+		};
+		55D1F33925C932A900E9A6D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55D1F32825C9329600E9A6D7 /* ConversationsVC.swift */,
+				55D1F34125C9340800E9A6D7 /* LoginVC.swift */,
+				55D1F34425C9341700E9A6D7 /* RegisterVC.swift */,
+				55D1F34725C9343700E9A6D7 /* PhotoViewerVC.swift */,
+				55D1F34B25C9345000E9A6D7 /* VideoPlayerVC.swift */,
+				55D1F34E25C9346600E9A6D7 /* NewConversationVC.swift */,
+				55D1F35125C9347700E9A6D7 /* ProfileVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		55D1F33A25C932B500E9A6D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55D1F33E25C9331A00E9A6D7 /* Storyboards */,
+				55D1F32D25C9329700E9A6D7 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55D1F33B25C932BB00E9A6D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55D1F33C25C932D100E9A6D7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		55D1F33D25C932F700E9A6D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55D1F32425C9329500E9A6D7 /* AppDelegate.swift */,
+				55D1F32625C9329600E9A6D7 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		55D1F33E25C9331A00E9A6D7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				55D1F32A25C9329600E9A6D7 /* Main.storyboard */,
+				55D1F32F25C9329700E9A6D7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +203,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D1F32925C9329600E9A6D7 /* ViewController.swift in Sources */,
+				55D1F34F25C9346600E9A6D7 /* NewConversationVC.swift in Sources */,
+				55D1F34C25C9345000E9A6D7 /* VideoPlayerVC.swift in Sources */,
+				55D1F32925C9329600E9A6D7 /* ConversationsVC.swift in Sources */,
+				55D1F35225C9347700E9A6D7 /* ProfileVC.swift in Sources */,
 				55D1F32525C9329500E9A6D7 /* AppDelegate.swift in Sources */,
+				55D1F34225C9340800E9A6D7 /* LoginVC.swift in Sources */,
+				55D1F34825C9343700E9A6D7 /* PhotoViewerVC.swift in Sources */,
 				55D1F32725C9329600E9A6D7 /* SceneDelegate.swift in Sources */,
+				55D1F34525C9341700E9A6D7 /* RegisterVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZAD3RQ6R75;
 				INFOPLIST_FILE = Messanger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +381,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZAD3RQ6R75;
 				INFOPLIST_FILE = Messanger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
