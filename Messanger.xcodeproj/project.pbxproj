@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,10 +21,12 @@
 		55D1F35225C9347700E9A6D7 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F35125C9347700E9A6D7 /* ProfileVC.swift */; };
 		55D1F35725C93A3900E9A6D7 /* ImageAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F35625C93A3900E9A6D7 /* ImageAssets.swift */; };
 		55D1F35A25C93B4E00E9A6D7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1F35925C93B4E00E9A6D7 /* Extensions.swift */; };
+		55DEBC3225D517FD00191991 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55DEBC3125D517FD00191991 /* GoogleService-Info.plist */; };
 		A09347B39A960C94BF4B3EEB /* Pods_Messanger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819B461D304F672FB43CBA7C /* Pods_Messanger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		552587F525DA483E00A860EC /* Messanger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Messanger.entitlements; sourceTree = "<group>"; };
 		55D1F32125C9329500E9A6D7 /* Messanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D1F32425C9329500E9A6D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55D1F32625C9329600E9A6D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 		55D1F35125C9347700E9A6D7 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		55D1F35625C93A3900E9A6D7 /* ImageAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAssets.swift; sourceTree = "<group>"; };
 		55D1F35925C93B4E00E9A6D7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		55DEBC3125D517FD00191991 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		570AE7DD93B16D0ABF226808 /* Pods-Messanger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messanger.release.xcconfig"; path = "Target Support Files/Pods-Messanger/Pods-Messanger.release.xcconfig"; sourceTree = "<group>"; };
 		819B461D304F672FB43CBA7C /* Pods_Messanger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messanger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC2D711BF282563CBD90BA29 /* Pods-Messanger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messanger.debug.xcconfig"; path = "Target Support Files/Pods-Messanger/Pods-Messanger.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +67,6 @@
 				DC2D711BF282563CBD90BA29 /* Pods-Messanger.debug.xcconfig */,
 				570AE7DD93B16D0ABF226808 /* Pods-Messanger.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -89,12 +91,14 @@
 		55D1F32325C9329500E9A6D7 /* Messanger */ = {
 			isa = PBXGroup;
 			children = (
+				552587F525DA483E00A860EC /* Messanger.entitlements */,
 				55D1F33D25C932F700E9A6D7 /* Resources */,
 				55D1F33C25C932D100E9A6D7 /* ViewModels */,
 				55D1F33B25C932BB00E9A6D7 /* Models */,
 				55D1F33A25C932B500E9A6D7 /* Views */,
 				55D1F33925C932A900E9A6D7 /* Controllers */,
 				55D1F33225C9329700E9A6D7 /* Info.plist */,
+				55DEBC3125D517FD00191991 /* GoogleService-Info.plist */,
 			);
 			path = Messanger;
 			sourceTree = "<group>";
@@ -232,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D1F33125C9329700E9A6D7 /* LaunchScreen.storyboard in Resources */,
+				55DEBC3225D517FD00191991 /* GoogleService-Info.plist in Resources */,
 				55D1F32E25C9329700E9A6D7 /* Assets.xcassets in Resources */,
 				55D1F32C25C9329600E9A6D7 /* Main.storyboard in Resources */,
 			);
@@ -444,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Messanger/Messanger.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZAD3RQ6R75;
 				INFOPLIST_FILE = Messanger/Info.plist;
@@ -452,7 +458,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.face.Messanger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.face.FitoChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Messanger/Messanger.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZAD3RQ6R75;
 				INFOPLIST_FILE = Messanger/Info.plist;
@@ -473,7 +480,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.face.Messanger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.face.FitoChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
